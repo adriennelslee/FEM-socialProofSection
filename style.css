@@ -1,0 +1,65 @@
+/*
+[]
+{}
+||
+*/
+
+body {
+	font-family: "Spartan";
+	background-color: HSL(0, 0%, 100%);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#textTitle {
+	color: HSL(300, 43%, 22%);
+	font-size: 4rem;
+	font-weight: bold;
+	justiy-self: start;
+}
+
+#titleDescription {
+	color: HSL(303, 10%, 53%);
+	font-size: 1rem;
+	justify-self: start;
+}
+
+.container {
+	display: grid;
+}
+
+
+.boxmodel {
+	justify-self: end;
+	background-color: hsl(300, 24%, 96%);
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px 20px 20px 100px;
+}
+
+.boxmodel2 {
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 25px;
+	margin: 20px;
+	padding: 20px 20px 20px 20px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nameb {
+	color: hsl(0, 0%, 100%);
+	font-weight: bold;
+	
+}
+
+.textw {
+	color: hsl(0, 0%, 100%);
+}
+
+.softp {
+	color: hsl(333, 80%, 67%);
+}
